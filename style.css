@@ -24,9 +24,30 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    text-shadow: black;
 }
 
-/* about section image css */
-.imageAboutPage {
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* persona section css */
+.personaText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.personaIcon {
+    font-size: 36px;
+    text-align: center;
     width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .personaIcon {
+    color: #008000;
+}
+.personaText:hover {
+    border: 1px solid #008000;
 }
