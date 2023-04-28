@@ -32,6 +32,10 @@
     background-color: black;
 }
 
+.nav-link {
+    color: white
+}
+
 /* persona section css */
 .personaText.card {
     height: 280px;
