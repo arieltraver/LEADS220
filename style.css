@@ -44,8 +44,8 @@
 /* persona section css */
 .personaText.card {
     height: 280px;
-    margin-bottom:10px;
     cursor: pointer;
+    margin-bottom:5px;
   }
 .personaIcon {
     font-size: 36px;
@@ -67,4 +67,5 @@
     background-color: #1e130c;
     margin-top: 4rem;
     padding-top: 4rem;
+    padding-bottom: 4rem;
 }
