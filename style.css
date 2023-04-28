@@ -50,13 +50,13 @@
     text-align: center;
 }
 .card:hover .personaIcon {
-    color: #008000;
+    color: #0003b9;
 }
 .personaText:hover {
-    border: 1px solid #008000;
+    border: 1px solid #0003b9;
 }
 /* spacing on all sections */
-#about, #services, #portfolio, #contact {
+#intro, #analysis, #ideation, #prototyping {
     margin-top: 4rem;
     padding-top: 4rem;
 }
