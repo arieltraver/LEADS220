@@ -1,6 +1,7 @@
 /* about section image css */
 .imageAboutPage {
     width: 100%;
+    padding: 10px;
 }
 
 /* map background image */
@@ -36,9 +37,14 @@
     color: white
 }
 
+.light-title{
+    color: white
+}
+
 /* persona section css */
 .personaText.card {
     height: 280px;
+    margin-bottom:10px;
     cursor: pointer;
   }
 .personaIcon {
@@ -56,10 +62,9 @@
     border: 1px solid #0003b9;
 }
 /* spacing on all sections */
-#intro, #analysis, #ideation, #prototyping {
+
+#analysis {
+    background-color: #1e130c;
     margin-top: 4rem;
     padding-top: 4rem;
-}
-#contact {
-    padding-bottom: 4rem;
 }
