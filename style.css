@@ -79,8 +79,8 @@
     border: 1px solid #0003b9;
 }
 
-.personaText:hover {
-    border: 2px solid  #ffe699;
+.personaText.h4:hover {
+    color: 2px solid  #ffe699;
 }
 /* spacing on all sections */
 
@@ -91,13 +91,17 @@
     padding-bottom: 4rem;
 }
 
+.testlist {
+    list-style-image:'images/arrow.png'
+}
+
 /* social media icons styling */
 .social-icons {
     font-size: 36px;
     cursor: pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-    color: #008000;
+    color: #180091;
 }
 .fab {
     color: #000000;
