@@ -53,11 +53,17 @@
     color: white
 }
 
+.protoText.card {
+    cursor: pointer;
+    margin-bottom:5px;
+    height:90vh
+}
+
 /* persona section css */
 .personaText.card {
     cursor: pointer;
     margin-bottom:5px;
-    height: 450px;
+    height: 60vh;
 }
 .personaIcon {
     font-size: 36px;
@@ -84,7 +90,7 @@
 }
 /* spacing on all sections */
 
-#analysis {
+#analysis, #prototyping {
     background-color: #1e130c;
     margin-top: 4rem;
     padding-top: 4rem;
@@ -110,4 +116,6 @@
 #footer {
     background-color: #ffe699;
     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
