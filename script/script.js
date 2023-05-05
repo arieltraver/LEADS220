@@ -10,3 +10,10 @@ window.onscroll = function() {
         header.classList.remove('navbarDark');
     }
 }
+
+$("[data-toggle=popover]").popover(
+    {
+        html: true,
+        trigger: "hover"
+    }
+);

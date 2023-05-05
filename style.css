@@ -4,6 +4,18 @@
     padding: 10px;
 }
 
+/*persona section*/
+.hoverImage {
+    width: 220%;
+}
+
+.cardImage {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* map background image */
 .bgimage {
     height:100vh;
@@ -43,23 +55,32 @@
 
 /* persona section css */
 .personaText.card {
-    height: 280px;
     cursor: pointer;
     margin-bottom:5px;
+    height: 450px;
 }
 .personaIcon {
     font-size: 36px;
     text-align: center;
     width: 100%;
 }
+
+.personaImg {
+    width:20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .card-title {
     text-align: center;
 }
-.card:hover .personaIcon {
-    color: #0003b9;
-}
-.personaText:hover {
+.card:hover {
     border: 1px solid #0003b9;
+}
+
+.personaText:hover {
+    border: 2px solid  #ffe699;
 }
 /* spacing on all sections */
 
