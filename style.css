@@ -46,7 +46,7 @@
     height: 280px;
     cursor: pointer;
     margin-bottom:5px;
-  }
+}
 .personaIcon {
     font-size: 36px;
     text-align: center;
@@ -68,4 +68,21 @@
     margin-top: 4rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #ffe699;
+    text-align: center;
 }
